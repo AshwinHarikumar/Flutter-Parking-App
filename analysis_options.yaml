@@ -1,0 +1,10 @@
+include: package:very_good_analysis/analysis_options.yaml
+
+linter:
+  rules:
+    public_member_api_docs: false
+    library_private_types_in_public_api: false
+    always_use_package_imports: false
+    sort_pub_dependencies: false
+    depend_on_referenced_packages: false
+    directives_ordering: true
